@@ -1,0 +1,91 @@
+
+.section1{
+    text-align: center;
+    margin-top: 30px;
+}
+.section1 h1{
+    margin: 0px 0px 5px 0px;
+    font-family: fantasy;
+    font-size: 700;
+}
+.section1 .colors{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 45px;
+    margin-top: 50px;
+}
+
+.section1 .colors .color{
+    background:#fff;
+    box-shadow: 0.4px 0.4px 35px rgba(83, 76, 76, 0.116);
+    padding: 8px 10px 20px 10px;
+    border-radius: 35px;
+}
+
+.section1 .colors .color .color-img{
+    height: 350px;
+    border-radius: 10rem;
+    margin-top: 35px;
+}
+
+.section1 .colors .color .color-text{
+    margin-top: 10px;
+    
+    font-family: fantasy ;
+}
+
+.section1 .message{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    background: linear-gradient(115deg,#f8c798,#e0d196,#c6a0ec,#12bcfe,#44ce7b);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display:flex;
+    color: rgb(224, 83, 83);
+    color: hsl(51, 100%, 50%);
+}
+
+.section2{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.section2 .btn{
+    
+        font-family: inter;
+        font-size: 15px;
+        padding: 18px 150px;
+        background-color: #614bc2;
+        border: none;
+        color: #fff;
+        border-radius: 7px;
+        background: linear-gradient(-135deg, #df8fdf, #3d4880);
+    
+}
+
+.section2 p{
+    font-size: 13px;
+    margin-top: 15px;
+    position: relative;
+color: #be7e7e;
+ 
+}
+
+.section2 h4{
+    font-size: 20px;
+    font-weight: 400;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px 2px solid;
+    text-align: center;
+border-radius: 10px;
+
+font-size: 23px;
+    background-image: linear-gradient(115deg,#f8c798,#e0d196,#c6a0ec,#12bcfe,#44ce7b);
+    border-radius: 50px;
+}
